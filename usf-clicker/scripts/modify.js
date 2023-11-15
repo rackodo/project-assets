@@ -9,12 +9,21 @@ export function Modify(Game) {
 	)
 
 	// Update Images
-	
+	fetch('https://assets.rackodo.dev/usf-clicker/text/fileList.txt')
+	.then(response => response.text())
+	.then((data) => {
+		data = data.split("\n")
+		data.pop()
+		console.log(data)
+		data.forEach(element => {
+			Game.Loader.Replace(element, `https://assets.rackodo.dev/usf-clicker/images/${element}`)
+		});
+	})
 
 	var newCss = document.createElement('style');
 	newCss.type = 'text/css';
 	// Add icons file
-	newCss.innerHTML = 'body .icon,body .crate,body .usesIcon{background-image:url(' + Game.resPath + 'img/icons.png?v=' + Game.version + ');}' +
+	newCss.innerHTML = 'body .icon,body .crate,body .usesIcon{background-image:url("https://assets.rackodo.dev/usf-clicker/images/icons.png")}' +
     '.product .icon,.product .icon.off,.tinyProductIcon{background-image:url("https://assets.rackodo.dev/usf-clicker/images/buildings.png")}';
 
 	document.head.appendChild(newCss);
