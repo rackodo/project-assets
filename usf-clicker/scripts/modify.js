@@ -13,6 +13,14 @@ export function Modify(Game) {
 
 	Game.Loader.Replace('grandma.png', 'https://assets.rackodo.dev/usf-clicker/images/grandma.png')
 
+	var newCss = document.createElement('style');
+	newCss.type = 'text/css';
+	// Add icons file
+	newCss.innerHTML = 'body .icon,body .crate,body .usesIcon{background-image:url(' + Game.resPath + 'img/icons.png?v=' + Game.version + ');}' +
+    '.product .icon,.product .icon.off,.tinyProductIcon{background-image:url("https://assets.rackodo.dev/usf-clicker/images/buildings.png")}';
+
+	document.head.appendChild(newCss);
+
 	// Replace Draw
 	Game.Draw=function()
 	{
