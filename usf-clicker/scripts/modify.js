@@ -9,9 +9,7 @@ export function Modify(Game) {
 	)
 
 	// Update Images
-	Game.Loader.Replace('perfectCookie.png', 'https://assets.rackodo.dev/usf-clicker/images/perfectCookie.png')
-
-	Game.Loader.Replace('grandma.png', 'https://assets.rackodo.dev/usf-clicker/images/grandma.png')
+	
 
 	var newCss = document.createElement('style');
 	newCss.type = 'text/css';
