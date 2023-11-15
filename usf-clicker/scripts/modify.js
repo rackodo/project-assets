@@ -11,7 +11,7 @@ export function Modify(Game) {
 	// Update Images
 	Game.Loader.Replace('perfectCookie.png', 'https://media.discordapp.net/attachments/1169961839816364042/1174109281407209592/littleguy-removebg-preview.png?ex=6566657a&is=6553f07a&hm=b31e3e1e57cf0d76d0ca1110fd9dd488e286d7bd1068dd2e3564163e08ef91dd&=')
 
-	// Replace Draw Function
+	// Replace Draw
 	Game.Draw=function()
 	{
 		Game.DrawBackground();Timer.track('end of background');
@@ -37,7 +37,7 @@ export function Modify(Game) {
 				str=[str.slice(0,spacePos),add,str.slice(spacePos)].join('');
 			}
 			
-			str=loc("%1 shugat",{n:Math.round(Game.cookiesd),b:str});
+			str=loc("%1 cookie",{n:Math.round(Game.cookiesd),b:str});
 			if (str.length>14) str=str.replace(' ','<br>');
 			
 			if (Game.prefs.monospace) str='<span class="monospace">'+str+'</span>';
