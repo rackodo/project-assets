@@ -1,6 +1,0 @@
-<div class="selectable">
-	<div class="section">USF Clicker Mod</div>
-	<div class="subsection">
-		<div class="listing">USF Clicker Mod was developed by <b>Rackodo</b> and <b>Gesidriel</b>.</div>
-	</div>
-</div>

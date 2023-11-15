@@ -1,6 +1,6 @@
 export function Modify(Game) {
 	// Update Info Page
-	fetch('https://assets.rackodo.dev/usf-clicker/text/modInfo.txt')
+	fetch('https://assets.rackodo.dev/usf-clicker/text/modInfo.html')
 		.then((response) => response.text().then(
 			function(text) {
 				Game.updateLog = text + Game.updateLog
