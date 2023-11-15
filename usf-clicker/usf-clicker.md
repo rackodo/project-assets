@@ -1,4 +1,4 @@
-# use-clicker
+# usf-clicker
 USF texture pack for Cookie Clicker.
 
 # JS Console Command
