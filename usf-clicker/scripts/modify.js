@@ -37,7 +37,13 @@ export function Modify(Game) {
 				str=[str.slice(0,spacePos),add,str.slice(spacePos)].join('');
 			}
 			
-			str=loc("%1 cookie",{n:Math.round(Game.cookiesd),b:str});
+			str=loc("%1" + " shugat",{n:Math.round(Game.cookiesd),b:str});
+			let newStr = str.toString().split("")
+			newStr.splice(newStr.length - 7, 7)
+			newStr = newStr.join("") + "shugats"
+
+			str = newStr
+			
 			if (str.length>14) str=str.replace(' ','<br>');
 			
 			if (Game.prefs.monospace) str='<span class="monospace">'+str+'</span>';
