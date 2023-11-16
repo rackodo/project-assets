@@ -1001,10 +1001,10 @@ AddLanguage('USF','US Furries',{
 	"[Grandma quote]A nice grandma to bake more cookies.": "A nice zeke to bake more shugats.",
 	"[Grandma business name]Oven": "Oven",
 	"[Grandma business quote]A crucial element of baking cookies.": "A crucial element of baking shugats.",
-	"Mulch": "/",
-	"mulch": "/",
+	"Farm": "Mulch",
+	"farm": "mulch",
 	"bags of mulch": "/",
-	"%1 farm": [
+	"%1 mulch": [
 		"%1 mulch",
 		"%1 bags of mulch"
 	],
