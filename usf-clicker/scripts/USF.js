@@ -11,7 +11,7 @@ AddLanguage('USF','US Furries',{
 	"upgrade": "/",
 	"goldie cookie": "/",
 	"zekepocalypse": "/",
-	"%1 cookie": [
+	"%1 shugat": [
 		"%1 shugat",
 		"%1 shugats"
 	],
