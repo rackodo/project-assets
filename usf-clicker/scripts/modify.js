@@ -26,6 +26,7 @@ export function Modify(Game) {
 	body .icon,body .crate,body .usesIcon{background-image:url("https://assets.rackodo.dev/usf-clicker/images/icons.png")}` +
     `.product .icon,.product .icon.off,.tinyProductIcon{background-image:url("https://assets.rackodo.dev/usf-clicker/images/buildings.png")}` +
 	`.separatorLeft, .separatorRight {background: url(img/panelGradientTop.png) no-repeat top left,url(img/panelGradientBottom.png) no-repeat bottom left,url(https://assets.rackodo.dev/usf-clicker/images/panelVertical.png) repeat-y}` +
+	`.separatorBottom {background: url(img/panelGradientLeft.png) no-repeat top left,url(img/panelGradientRight.png) no-repeat top right,url(https://assets.rackodo.dev/usf-clicker/images/panelHorizontal.png) repeat-x}` +
 	`.panelButton {background: url(https://assets.rackodo.dev/usf-clicker/images/panelMenu3.png)}`;
 
 	document.head.appendChild(newCss);
