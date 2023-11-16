@@ -4,14 +4,14 @@ AddLanguage('USF','US Furries',{
 		"plural-forms": "nplurals=2;plural=(n!=1);"
 	},
 	"shugat": "/",
-	"shugat lump": "/",
+	"sugar lump": "/",
 	"heavenly chip": "/",
 	"wrinkler": "/",
 	"building": "/",
 	"upgrade": "/",
-	"goldie cookie": "/",
-	"zekepocalypse": "/",
-	"%1 shugat": [
+	"golden cookie": "/",
+	"grandmapocalypse": "/",
+	"%1 cookie": [
 		"%1 shugat",
 		"%1 shugats"
 	],
@@ -992,13 +992,13 @@ AddLanguage('USF','US Furries',{
 	"[Cursor business name]Rolling pin": "Rolling pin",
 	"[Cursor business quote]Essential in flattening dough. The first step in cookie-making.": "Essential in flattening dough. The first step in cookie-making.",
 	"Shorg": "/",
-	"grandma": "/",
-	"grandmas": "/",
+	"shorg": "/",
+	"shorgs": "/",
 	"%1 grandma": [
-		"%1 shorg",
-		"%1 shorgs"
+		"%1 grandma",
+		"%1 grandmas"
 	],
-	"[Grandma quote]A nice shorg to bake more cookies.": "A nice shorg to bake more cookies.",
+	"[Grandma quote]A nice grandma to bake more cookies.": "A nice grandma to bake more cookies.",
 	"[Grandma business name]Oven": "Oven",
 	"[Grandma business quote]A crucial element of baking cookies.": "A crucial element of baking cookies.",
 	"Farm": "/",
