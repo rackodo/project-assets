@@ -54,8 +54,9 @@ export function Modify(Game) {
 			Game.ObjectsById[i].plural = loc(Game.ObjectsById[i].plural, 'USF')
 			Game.ObjectsById[i].bsingle = loc(Game.ObjectsById[i].bsingle, 'USF')
 			Game.ObjectsById[i].bplural = loc(Game.ObjectsById[i].bplural, 'USF')
-			console.log(Game.ObjectsById[i])
 			Game.ObjectsById[i].refresh()
+
+			LocalizeUpgradesAndAchievs()
 		}
 	},"what the fuck")
 
