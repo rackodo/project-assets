@@ -991,9 +991,9 @@ AddLanguage('USF','US Furries',{
 	"[Cursor quote]Autoclicks once every 10 seconds.": "Autoclicks once every 10 seconds.",
 	"[Cursor business name]Rolling pin": "Rolling pin",
 	"[Cursor business quote]Essential in flattening dough. The first step in cookie-making.": "Essential in flattening dough. The first step in shugat-making.",
-	"Grandma": "Zeke",
-	"grandma": "zeke",
-	"grandmas": "zekes",
+	"Zeke": "/",
+	"zeke": "/",
+	"zekes": "/",
 	"%1 grandma": [
 		"%1 zeke",
 		"%1 zekes"
