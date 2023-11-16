@@ -1041,8 +1041,8 @@ AddLanguage('USF','US Furries',{
 	"[Bank quote]Generates cookies from interest.": "Generates dexiums from interest.",
 	"[Bank business name]Investor": "Investor",
 	"[Bank business quote]Business folks with a nose for profit, ready to finance your venture as long as there's money to be made.": "Business folks with a nose for profit, ready to finance your venture as long as there's money to be made.",
-	"temple": "Church",
-	"Temple": "church",
+	"Temple": "Church",
+	"temple": "church",
 	"churches": "/",
 	"%1 church": [
 		"%1 church",
@@ -1054,7 +1054,7 @@ AddLanguage('USF','US Furries',{
 	"Wizard tower": "Wizard sergal",
 	"wizard tower": "wizard sergal",
 	"wizard sergals": "/",
-	"%1 wizard tower": [
+	"%1 wizard sergal": [
 		"%1 wizard sergal",
 		"%1 wizard sergals"
 	],
