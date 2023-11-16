@@ -1,6 +1,6 @@
 AddLanguage('USF','US Furries',{
 	"": {
-		"language": "usf",
+		"language": "USF",
 		"plural-forms": "nplurals=2;plural=(n!=1);"
 	},
 	"shugat": "/",
