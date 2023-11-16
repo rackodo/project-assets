@@ -14,7 +14,6 @@ export function Modify(Game) {
 	.then((data) => {
 		data = data.split("\n")
 		data.pop()
-		console.log(data)
 		data.forEach(element => {
 			Game.Loader.Replace(element, `https://assets.rackodo.dev/usf-clicker/images/${element}`)
 		});
@@ -45,13 +44,14 @@ export function Modify(Game) {
 		'USF':{file:'USF',nameEn:'US Furries',name:'US Furries Mod',changeLanguage:'UwU',icon:0,w:1.2}
 	};
 
-	LoadLang('https://assets.rackodo.dev/usf-clicker/scripts/USF.js')
+	if(LoadLang('https://assets.rackodo.dev/usf-clicker/scripts/USF.js')) {
 
-	console.log("Language loaded!")
-	for (let i = 0; i < Game.ObjectsById.length; i++) {
-		Game.ObjectsById[i].dname = loc(Game.ObjectsById[i].dname, 'USF')
-		console.log(Game.ObjectsById[i])
-		Game.ObjectsById[i].refresh()
+		console.log("Language loaded!")
+		for (let i = 0; i < Game.ObjectsById.length; i++) {
+			Game.ObjectsById[i].dname = loc(Game.ObjectsById[i].dname, 'USF')
+			console.log(Game.ObjectsById[i])
+			Game.ObjectsById[i].refresh()
+		}
 	}
 
 
