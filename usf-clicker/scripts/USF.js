@@ -998,7 +998,7 @@ AddLanguage('USF','US Furries',{
 		"%1 shorg",
 		"%1 shorgs"
 	],
-	"[Grandma quote]A nice shorg to bake more cookies.": "A nice shorg to bake more cookies.",
+	"[Grandma quote]A nice grandma to bake more cookies.": "A nice shorg to bake more cookies.",
 	"[Grandma business name]Oven": "Oven",
 	"[Grandma business quote]A crucial element of baking cookies.": "A crucial element of baking cookies.",
 	"Farm": "/",
