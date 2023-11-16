@@ -64,12 +64,12 @@ export function Modify(Game) {
 
 	if (LoadLang('https://assets.rackodo.dev/usf-clicker/scripts/USF.js')) {
 		console.log("Language loaded!")
+		for (let i = 0; i < Game.ObjectsById.length; i++) {
+			Game.ObjectsById[i].dname = loc(Game.ObjectsById[i].dname, 'USF')
+			Game.ObjectsById[i].refresh()
+		}
 	}
 
-	for (let i = 0; i < Game.ObjectsById.length; i++) {
-		Game.ObjectsById[i].dname = loc(Game.ObjectsById[i].dname, 'USF')
-		Game.ObjectsById[i].refresh()
-	}
 
 // 	// Replace Draw
 // 	Game.Draw=function()
