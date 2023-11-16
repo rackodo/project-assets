@@ -991,9 +991,9 @@ AddLanguage('USF','US Furries',{
 	"[Cursor quote]Autoclicks once every 10 seconds.": "Autoclicks once every 10 seconds.",
 	"[Cursor business name]Rolling pin": "Rolling pin",
 	"[Cursor business quote]Essential in flattening dough. The first step in cookie-making.": "Essential in flattening dough. The first step in shugat-making.",
-	"Zeke": "/",
-	"zeke": "/",
-	"zekes": "/",
+	"Grandma": "Zeke",
+	"grandma": "zeke",
+	"grandmas": "zekes",
 	"%1 grandma": [
 		"%1 zeke",
 		"%1 zekes"
@@ -1011,9 +1011,9 @@ AddLanguage('USF','US Furries',{
 	"[Farm quote]Grows cookie plants from cookie seeds.": "Mulches shugat plants from shugat seeds.",
 	"[Farm business name]Kitchen": "Kitchen",
 	"[Farm business quote]The more kitchens, the more cookies your employees can produce.": "The more kitchens, the more shugats your employees can produce.",
-	"Dead chat": "/",
-	"dead chat": "/",
-	"dead chats": "/",
+	"Mine": "Dead chat",
+	"mine": "dead chat",
+	"mines": "dead chats",
 	"%1 mine": [
 		"%1 dead chat",
 		"%1 dead chats"
@@ -1061,9 +1061,9 @@ AddLanguage('USF','US Furries',{
 	"[Wizard tower quote]Summons cookies with magic spells.": "Summons shugats with sergal magic.",
 	"[Wizard tower business name]Meme": "Meme",
 	"[Wizard tower business quote]Cookie memes are all the rage! With just the right amount of social media astroturfing, your brand image will be all over the cyberspace.": "Shugat memes are all the rage! With just the right amount of social media astroturfing, your brand image will be all over the cyberspace.",
-	"Shuglizzy": "/",
-	"shuglizzy": "/",
-	"shuglizzies": "/",
+	"Shipment": "Shuglizzy",
+	"shipment": "shipment",
+	"shipments": "shipments",
 	"%1 shipment": [
 		"%1 shuglizzy",
 		"%1 shuglizzies"
@@ -1071,9 +1071,9 @@ AddLanguage('USF','US Furries',{
 	"[Shipment quote]Brings in fresh cookies from the cookie planet.": "Shuglizzy stand to bring in new members. Hello, welcome to the server, what brings you here?",
 	"[Shipment business name]Supermarket": "Supermarket",
 	"[Shipment business quote]A gigantic cookie emporium - your very own retail chain.": "A gigantic cookie emporium - your very own retail chain.",
-	"Bean lab": "/",
-	"bean lab": "/",
-	"bean labs": "/",
+	"Alchemy lab": "Bean lab",
+	"alchemy lab": "bean lab",
+	"alchemy labs": "bean labs",
 	"%1 alchemy lab": [
 		"%1 bean lab",
 		"%1 bean labs"
@@ -1081,9 +1081,9 @@ AddLanguage('USF','US Furries',{
 	"[Alchemy lab quote]Turns gold into cookies!": "Foli's favorite! Creates beans out of thin air!",
 	"[Alchemy lab business name]Stock share": "Stock share",
 	"[Alchemy lab business quote]You're officially on the stock market, and everyone wants a piece!": "You're officially on the stock market, and everyone wants a piece!",
-	"Serious chat portal": "/",
-	"serious chat portal": "/",
-	"serious chat portals": "/",
+	"Portal": "Serious chat portal",
+	"portal": "Serious chat portal",
+	"portals": "Serious chat portals",
 	"%1 portal": [
 		"%1 serious chat portal",
 		"%1 serious chat portals"
@@ -1101,9 +1101,9 @@ AddLanguage('USF','US Furries',{
 	"[Time machine quote]Brings cookies from the past, before they were even eaten.": "Brings silly little guys from 2018, before they were even commissioned.",
 	"[Time machine business name]Theme park": "Theme park",
 	"[Time machine business quote]Cookie theme parks, full of mascots and roller-coasters. Build one, build a hundred!": "Shugat theme parks, full of mascots and roller-coasters. Build one, build a hundred!",
-	"Dexter's server": "/",
-	"dexter's server": "/",
-	"dexter's servers": "/",
+	"Antimatter condenser": "Dexter's server",
+	"antimatter condenser": "dexter's server",
+	"antimatter condensers": "dexter's servers",
 	"%1 antimatter condenser": [
 		"%1 dexter's server",
 		"%1 dexter's servers"
@@ -1111,9 +1111,9 @@ AddLanguage('USF','US Furries',{
 	"[Antimatter condenser quote]Condenses the antimatter in the universe into cookies.": "Uses the ~shugat command to guh.",
 	"[Antimatter condenser business name]Cookiecoin": "Dexiums",
 	"[Antimatter condenser business quote]A virtual currency, already replacing regular money in some small countries.": "A virtual currency, already replacing regular money in some small countries.",
-	"Gay people": "/",
-	"gay people": "/",
-	"gays": "/",
+	"Prism": "Gay people",
+	"prism": "gay people",
+	"prisms": "gays",
 	"%1 prism": [
 		"%1 gay",
 		"%1 gays"
