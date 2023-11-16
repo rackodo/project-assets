@@ -29,7 +29,7 @@ export function Modify(Game) {
     `.product .icon,.product .icon.off,.tinyProductIcon{
 		background-image:url("https://assets.rackodo.dev/usf-clicker/images/buildings.png")
 	}` +
-	`separatorLeft, .separatorRight {
+	`.separatorLeft, .separatorRight {
 		background: url(img/panelGradientTop.png) no-repeat top left,url(img/panelGradientBottom.png) no-repeat bottom left,url(https://assets.rackodo.dev/usf-clicker/images/panelVertical.png) repeat-y
 	}`;
 
