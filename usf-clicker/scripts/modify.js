@@ -23,15 +23,10 @@ export function Modify(Game) {
 	newCss.type = 'text/css';
 	// Add icons file
 	newCss.innerHTML = `
-	body .icon,body .crate,body .usesIcon{
-		background-image:url("https://assets.rackodo.dev/usf-clicker/images/icons.png")
-	}` +
-    `.product .icon,.product .icon.off,.tinyProductIcon{
-		background-image:url("https://assets.rackodo.dev/usf-clicker/images/buildings.png")
-	}` +
-	`.separatorLeft, .separatorRight {
-		background: url(img/panelGradientTop.png) no-repeat top left,url(img/panelGradientBottom.png) no-repeat bottom left,url(https://assets.rackodo.dev/usf-clicker/images/panelVertical.png) repeat-y
-	}`;
+	body .icon,body .crate,body .usesIcon{background-image:url("https://assets.rackodo.dev/usf-clicker/images/icons.png")}` +
+    `.product .icon,.product .icon.off,.tinyProductIcon{background-image:url("https://assets.rackodo.dev/usf-clicker/images/buildings.png")}` +
+	`.separatorLeft, .separatorRight {background: url(img/panelGradientTop.png) no-repeat top left,url(img/panelGradientBottom.png) no-repeat bottom left,url(https://assets.rackodo.dev/usf-clicker/images/panelVertical.png) repeat-y}` +
+	`.panelButton {background: url(https://assets.rackodo.dev/usf-clicker/images/panelMenu3.png)}`;
 
 	document.head.appendChild(newCss);
 
