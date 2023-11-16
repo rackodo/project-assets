@@ -33,7 +33,7 @@ export function Modify(Game) {
 	`.separatorLeft, .separatorRight {background: url(img/panelGradientTop.png) no-repeat top left,url(img/panelGradientBottom.png) no-repeat bottom left,url(https://assets.rackodo.dev/usf-clicker/images/panelVertical.png) repeat-y}` +
 	`.separatorBottom, .storeSection {background: url(img/panelGradientLeft.png) no-repeat top left,url(img/panelGradientRight.png) no-repeat top right,url(https://assets.rackodo.dev/usf-clicker/images/panelHorizontal.png) repeat-x}` +
 	`.panelButton {background: url(https://assets.rackodo.dev/usf-clicker/images/panelMenu3.png)}` +
-	`.price:before {background: url(https://assets.rackodo.dev/usf-clicker/images/money.ong)}`;
+	`.price:before {background: url(https://assets.rackodo.dev/usf-clicker/images/money.png)}`;
 	
 	document.head.appendChild(newCss);
 	console.log("Custom styling added!")
