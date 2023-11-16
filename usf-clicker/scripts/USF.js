@@ -1004,7 +1004,7 @@ AddLanguage('USF','US Furries',{
 	"Farm": "Mulch",
 	"farm": "mulch",
 	"farms": "bags of mulch",
-	"%1 farm": [
+	"%1 mulch": [
 		"%1 mulch",
 		"%1 bags of mulch"
 	],
@@ -1014,7 +1014,7 @@ AddLanguage('USF','US Furries',{
 	"Mine": "Dead chat",
 	"mine": "dead chat",
 	"mines": "dead chats",
-	"%1 mine": [
+	"%1 dead chat": [
 		"%1 dead chat",
 		"%1 dead chats"
 	],
@@ -1044,7 +1044,7 @@ AddLanguage('USF','US Furries',{
 	"Temple": "Church",
 	"temple": "church",
 	"temples": "churches",
-	"%1 temple": [
+	"%1 church": [
 		"%1 church",
 		"%1 churches"
 	],
@@ -1054,7 +1054,7 @@ AddLanguage('USF','US Furries',{
 	"Wizard tower": "Wizard sergal",
 	"wizard tower": "wizard sergal",
 	"wizard towers": "wizard sergals",
-	"%1 wizard tower": [
+	"%1 wizard sergal": [
 		"%1 wizard sergal",
 		"%1 wizard sergals"
 	],
@@ -1064,7 +1064,7 @@ AddLanguage('USF','US Furries',{
 	"Shipment": "Shuglizzy",
 	"shipment": "shuglizzy",
 	"shipments": "shuglizzies",
-	"%1 shipments": [
+	"%1 shuglizzy": [
 		"%1 shuglizzy",
 		"%1 shuglizzies"
 	],
@@ -1074,7 +1074,7 @@ AddLanguage('USF','US Furries',{
 	"Alchemy lab": "Bean lab",
 	"alchemy lab": "bean lab",
 	"alchemy labs": "bean labs",
-	"%1 alchemy lab": [
+	"%1 bean lab": [
 		"%1 bean lab",
 		"%1 bean labs"
 	],
@@ -1084,7 +1084,7 @@ AddLanguage('USF','US Furries',{
 	"Portal": "Serious chat portal",
 	"portal": "Serious chat portal",
 	"portals": "serious chat portals",
-	"%1 portal": [
+	"%1 serious chat portal": [
 		"%1 serious chat portal",
 		"%1 serious chat portals"
 	],
@@ -1104,7 +1104,7 @@ AddLanguage('USF','US Furries',{
 	"Antimatter condenser": "Dexter's server",
 	"antimatter condenser": "dexter's server",
 	"antimatter condensers": "dexter's servers",
-	"%1 antimatter condenser": [
+	"%1 dexter's server": [
 		"%1 dexter's server",
 		"%1 dexter's servers"
 	],
@@ -1114,7 +1114,7 @@ AddLanguage('USF','US Furries',{
 	"Prism": "Gay people",
 	"prism": "gay people",
 	"prisms": "gay people",
-	"%1 prism": [
+	"%1 gay people": [
 		"%1 gay",
 		"%1 gays"
 	],
@@ -1124,7 +1124,7 @@ AddLanguage('USF','US Furries',{
 	"Chancemaker": "Cheerleader bobo",
 	"chancemaker": "cheerleader bobo",
 	"chancemakers": "cheerleader bobo",
-	"%1 chancemaker": [
+	"%1 cheerleader bobo": [
 		"%1 cheerleader bobo",
 		"%1 cheerleader bobos"
 	],
@@ -1134,7 +1134,7 @@ AddLanguage('USF','US Furries',{
 	"Fractal engine": "Indigo engine",
 	"fractal engine": "indigo engine",
 	"fractal engines": "indigo engines",
-	"%1 fractal engine": [
+	"%1 indigo engine": [
 		"%1 indigo engine",
 		"%1 indigo engines"
 	],
@@ -1144,7 +1144,7 @@ AddLanguage('USF','US Furries',{
 	"Javascript console": "Rackodo's macbook",
 	"javascript console": "rackodo's macbook",
 	"javascript consoles": "rackodo's macbooks",
-	"%1 javascript console": [
+	"%1 rackodo's macbook": [
 		"%1 rackodo's macbook",
 		"%1 rackodo's macbooks"
 	],
@@ -1164,7 +1164,7 @@ AddLanguage('USF','US Furries',{
 	"Cortex baker": "STEM nerd",
 	"cortex baker": "STEM nerd",
 	"cortex bakers": "STEM nerds",
-	"%1 cortex baker": [
+	"%1 STEM nerd": [
 		"%1 STEM nerd",
 		"%1 STEM nerds"
 	],
