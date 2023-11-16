@@ -69,6 +69,10 @@ export function Modify(Game) {
 			LocalizeUpgradesAndAchievs()
 		}
 		console.log("Building data updated!")
+
+		for (let i = 0; i < Game.UpgradesById.length; i++) {
+			console.log(Game.UpgradesById[i].desc)
+		}
 	},"what the fuck")
 	console.log("Custom text loaded!")
 
