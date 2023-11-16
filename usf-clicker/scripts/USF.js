@@ -993,7 +993,7 @@ AddLanguage('USF','US Furries',{
 	"[Cursor business quote]Essential in flattening dough. The first step in cookie-making.": "Essential in flattening dough. The first step in shugat-making.",
 	"Grandma": "Zeke",
 	"grandma": "zeke",
-	"zekes": "/",
+	"grandmas": "zekes",
 	"%1 zeke": [
 		"%1 zeke",
 		"%1 zekes"
@@ -1203,7 +1203,7 @@ AddLanguage('USF','US Furries',{
 	"All shugat production <b>multiplied by %1</b>.": "/",
 	"+%1 SpS": "/",
 	"+%1% base CpS.": "/",
-	"%1 are <b>twice</b> as efficient.": "/",
+	"%1 are <b>twice</b> as efficient.": "%1 are <b>twice</b> as spoingy.",
 	"%1 are <b>%2%</b> more powerful.": "/",
 	"Unshackled! <b>+%1%</b> extra production.": "/",
 	"Tiered upgrades for <b>%1</b> provide an extra <b>+%2%</b> production.<br>Only works with unshackled upgrade tiers.": "/",
