@@ -1013,8 +1013,8 @@ AddLanguage('USF','US Furries',{
 	"[Farm business quote]The more kitchens, the more cookies your employees can produce.": "The more kitchens, the more shugats your employees can produce.",
 	"Mine": "Dead chat",
 	"mine": "dead chat",
-	"mines": "dead chats",
-	"%1 mine": [
+	"dead chats": "/",
+	"%1 dead chat": [
 		"%1 dead chat",
 		"%1 dead chats"
 	],
@@ -1041,18 +1041,18 @@ AddLanguage('USF','US Furries',{
 	"[Bank quote]Generates cookies from interest.": "Generates dexiums from interest.",
 	"[Bank business name]Investor": "Investor",
 	"[Bank business quote]Business folks with a nose for profit, ready to finance your venture as long as there's money to be made.": "Business folks with a nose for profit, ready to finance your venture as long as there's money to be made.",
-	"Church": "/",
-	"church": "/",
+	"temple": "Church",
+	"Temple": "church",
 	"churches": "/",
-	"%1 temple": [
+	"%1 church": [
 		"%1 church",
 		"%1 churches"
 	],
 	"[Temple quote]Full of precious, ancient chocolate.": "Full of precious, ancient server history.",
 	"[Temple business name]Like": "Like",
 	"[Temple business quote]Your social media page is going viral! Amassing likes is the key to a lasting online presence and juicy advertising deals.": "Your server page is going viral! Amassing likes is the key to a lasting online presence and juicy advertising deals.",
-	"Wizard sergal": "/",
-	"wizard sergal": "/",
+	"Wizard tower": "Wizard sergal",
+	"wizard tower": "wizard sergal",
 	"wizard sergals": "/",
 	"%1 wizard tower": [
 		"%1 wizard sergal",
@@ -1062,9 +1062,9 @@ AddLanguage('USF','US Furries',{
 	"[Wizard tower business name]Meme": "Meme",
 	"[Wizard tower business quote]Cookie memes are all the rage! With just the right amount of social media astroturfing, your brand image will be all over the cyberspace.": "Shugat memes are all the rage! With just the right amount of social media astroturfing, your brand image will be all over the cyberspace.",
 	"Shipment": "Shuglizzy",
-	"shipment": "shipment",
-	"shipments": "shipments",
-	"%1 shipment": [
+	"shipment": "shuglizzy",
+	"shuglizzies": "/",
+	"%1 shuglizzy": [
 		"%1 shuglizzy",
 		"%1 shuglizzies"
 	],
@@ -1073,8 +1073,8 @@ AddLanguage('USF','US Furries',{
 	"[Shipment business quote]A gigantic cookie emporium - your very own retail chain.": "A gigantic cookie emporium - your very own retail chain.",
 	"Alchemy lab": "Bean lab",
 	"alchemy lab": "bean lab",
-	"alchemy labs": "bean labs",
-	"%1 alchemy lab": [
+	"bean lab": "/",
+	"%1 bean lab": [
 		"%1 bean lab",
 		"%1 bean labs"
 	],
@@ -1083,8 +1083,8 @@ AddLanguage('USF','US Furries',{
 	"[Alchemy lab business quote]You're officially on the stock market, and everyone wants a piece!": "You're officially on the stock market, and everyone wants a piece!",
 	"Portal": "Serious chat portal",
 	"portal": "Serious chat portal",
-	"portals": "Serious chat portals",
-	"%1 portal": [
+	"serious chat portals": "/",
+	"%1 serious chat portal": [
 		"%1 serious chat portal",
 		"%1 serious chat portals"
 	],
