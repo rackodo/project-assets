@@ -45,7 +45,9 @@ export function Modify(Game) {
 		'USF':{file:'USF',nameEn:'US Furries',name:'US Furries Mod',changeLanguage:'UwU',icon:0,w:1.2}
 	};
 
-	LoadLang('https://assets.rackodo.dev/usf-clicker/scripts/USF.js')
+	if (LoadLang('https://assets.rackodo.dev/usf-clicker/scripts/USF.js')) {
+		console.log("Language loaded!")
+	}
 
 // 	// Replace Draw
 // 	Game.Draw=function()
