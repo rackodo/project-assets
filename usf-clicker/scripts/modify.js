@@ -28,23 +28,6 @@ export function Modify(Game) {
 
 	document.head.appendChild(newCss);
 
-	LoadLang('https://assets.rackodo.dev/usf-clicker/scripts/USF.js',function(){return function(){
-		locStringsFallback=locStrings;
-		LoadLang('https://assets.rackodo.dev/usf-clicker/scripts/USF.js',function(){
-			var launch=function(){
-				Game.Launch();
-				console.log('[=== '+choose([
-						'Oh, hello!',
-						'hey, how\'s it hangin',
-						'About to cheat in some cookies or just checking for bugs?',
-						'Remember : cheated cookies taste awful!',
-						'Hey, Orteil here. Cheated cookies taste awful... or do they?',
-					])+' ===]');
-					Game.Load(Game.Init())
-				}
-		});
-	}});
-
 	Langs = {
 		'EN':{file:'EN',nameEN:'English',name:'English',changeLanguage:'Language',icon:0,w:1,isEN:true},
 		'FR':{file:'FR',nameEN:'French',name:'Fran&ccedil;ais',changeLanguage:'Langue',icon:0,w:1},
@@ -66,6 +49,7 @@ export function Modify(Game) {
 		console.log("Language loaded!")
 		for (let i = 0; i < Game.ObjectsById.length; i++) {
 			Game.ObjectsById[i].dname = loc(Game.ObjectsById[i].dname, 'USF')
+			console.log(Game.ObjectsById[i])
 			Game.ObjectsById[i].refresh()
 		}
 	}
