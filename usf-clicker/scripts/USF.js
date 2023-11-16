@@ -991,14 +991,14 @@ AddLanguage('USF','US Furries',{
 	"[Cursor quote]Autoclicks once every 10 seconds.": "Autoclicks once every 10 seconds.",
 	"[Cursor business name]Rolling pin": "Rolling pin",
 	"[Cursor business quote]Essential in flattening dough. The first step in cookie-making.": "Essential in flattening dough. The first step in cookie-making.",
-	"Shorg": "/",
-	"shorg": "/",
-	"shorgs": "/",
+	"Grandma": "/",
+	"grandma": "/",
+	"grandmas": "/",
 	"%1 grandma": [
 		"%1 grandma",
 		"%1 grandmas"
 	],
-	"[Grandma quote]A nice grandma to bake more cookies.": "A nice grandma to bake more cookies.",
+	"[Grandma quote]A nice shorg to bake more cookies.": "A nice grandma to bake more cookies.",
 	"[Grandma business name]Oven": "Oven",
 	"[Grandma business quote]A crucial element of baking cookies.": "A crucial element of baking cookies.",
 	"Farm": "/",
