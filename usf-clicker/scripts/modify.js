@@ -49,6 +49,11 @@ export function Modify(Game) {
 		console.log("Language loaded!")
 		for (let i = 0; i < Game.ObjectsById.length; i++) {
 			Game.ObjectsById[i].dname = loc(Game.ObjectsById[i].dname, 'USF')
+			Game.ObjectsById[i].desc = loc(Game.ObjectsById[i].desc, 'USF')
+			Game.ObjectsById[i].single = loc(Game.ObjectsById[i].single, 'USF')
+			Game.ObjectsById[i].plural = loc(Game.ObjectsById[i].plural, 'USF')
+			Game.ObjectsById[i].bsingle = loc(Game.ObjectsById[i].bsingle, 'USF')
+			Game.ObjectsById[i].bplural = loc(Game.ObjectsById[i].bplural, 'USF')
 			console.log(Game.ObjectsById[i])
 			Game.ObjectsById[i].refresh()
 		}
