@@ -998,7 +998,7 @@ AddLanguage('USF','US Furries',{
 		"%1 zeke",
 		"%1 zekes"
 	],
-	"[Grandma quote]A nice grandma to bake more shugats.": "A nice zeke to bake more shugats.",
+	"[Grandma quote]A nice grandma to bake more cookies.": "A nice zeke to bake more shugats.",
 	"[Grandma business name]Oven": "Oven",
 	"[Grandma business quote]A crucial element of baking cookies.": "A crucial element of baking shugats.",
 	"Mulch": "/",
