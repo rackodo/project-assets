@@ -4,7 +4,7 @@ AddLanguage('USF','US Furries',{
 		"plural-forms": "nplurals=2;plural=(n!=1);"
 	},
 	"shugat": "/",
-	"shugat lump": "/",
+	"sugar lump": "/",
 	"heavenly chip": "/",
 	"wrinkler": "/",
 	"building": "/",
