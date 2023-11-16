@@ -1161,10 +1161,10 @@ AddLanguage('USF','US Furries',{
 	"[Idleverse quote]There's been countless other idle universes running alongside our own. You've finally found a way to hijack their production and convert whatever they've been making into cookies!": "There's been countless other idle universes running alongside our own. You've finally found a way to hijack their production and convert whatever they've been making into shugats!",
 	"[Idleverse business name]Lateral expansions": "Lateral expansions",
 	"[Idleverse business quote]Sometimes the best way to keep going up is sideways. Diversify your ventures through non-cookie investments.": "Sometimes the best way to keep going up is sideways. Diversify your ventures through non-shugat investments.",
-	"STEM nerd": "/",
-	"STEM nerd": "/",
+	"Cortex baker": "STEM nerd",
+	"cortex baker": "STEM nerd",
 	"STEM nerds": "/",
-	"%1 cortex baker": [
+	"%1 STEM nerd": [
 		"%1 STEM nerd",
 		"%1 STEM nerds"
 	],
@@ -1179,9 +1179,9 @@ AddLanguage('USF','US Furries',{
 	"[You quote]You, alone, are the reason behind all these cookies. You figure if there were more of you... maybe you could make even more.": "You, alone, are the reason behind all these shugats. You figure if there were more of you... maybe you could make even more.",
 	"[You business name]You": "You",
 	"[You business quote]Your business is as great as it's gonna get. The only real way to improve it anymore is to improve yourself - and become the best CEO this world has ever seen.": "Your business is as great as it's gonna get. The only real way to improve it anymore is to improve yourself - and become the best CEO this world has ever seen.",
-	"SpS": "/",
+	"CpS": "SpS",
 	"shugats/click": "/",
-	"%1 SpS": "/",
+	"%1 CpS": "%1 SpS",
 	"goldie gains": "/",
 	"goldie frequency": "/",
 	"goldie duration": "/",
