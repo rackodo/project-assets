@@ -4,13 +4,13 @@ AddLanguage('USF','US Furries',{
 		"plural-forms": "nplurals=2;plural=(n!=1);"
 	},
 	"shugat": "/",
-	"sugar lump": "/",
+	"shugat lump": "/",
 	"heavenly chip": "/",
 	"wrinkler": "/",
 	"building": "/",
 	"upgrade": "/",
-	"golden cookie": "/",
-	"grandmapocalypse": "/",
+	"goldie cookie": "/",
+	"zekepocalypse": "/",
 	"%1 cookie": [
 		"%1 shugat",
 		"%1 shugats"
