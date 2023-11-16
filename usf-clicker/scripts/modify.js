@@ -28,7 +28,7 @@ export function Modify(Game) {
 
 	document.head.appendChild(newCss);
 
-	var Langs = {
+	Langs = {
 		'EN':{file:'EN',nameEN:'English',name:'English',changeLanguage:'Language',icon:0,w:1,isEN:true},
 		'FR':{file:'FR',nameEN:'French',name:'Fran&ccedil;ais',changeLanguage:'Langue',icon:0,w:1},
 		'DE':{file:'DE',nameEN:'German',name:'Deutsch',changeLanguage:'Sprache',icon:0,w:1},
