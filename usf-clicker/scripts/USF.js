@@ -1103,8 +1103,8 @@ AddLanguage('USF','US Furries',{
 	"[Time machine business quote]Cookie theme parks, full of mascots and roller-coasters. Build one, build a hundred!": "Shugat theme parks, full of mascots and roller-coasters. Build one, build a hundred!",
 	"Antimatter condenser": "Dexter's server",
 	"antimatter condenser": "dexter's server",
-	"antimatter condensers": "dexter's servers",
-	"%1 antimatter condenser": [
+	"dexter's servers": "/",
+	"%1 dexter's server": [
 		"%1 dexter's server",
 		"%1 dexter's servers"
 	],
@@ -1113,38 +1113,38 @@ AddLanguage('USF','US Furries',{
 	"[Antimatter condenser business quote]A virtual currency, already replacing regular money in some small countries.": "A virtual currency, already replacing regular money in some small countries.",
 	"Prism": "Gay people",
 	"prism": "gay people",
-	"prisms": "gays",
-	"%1 prism": [
+	"gays": "/",
+	"%1 gay people": [
 		"%1 gay",
 		"%1 gays"
 	],
 	"[Prism quote]Converts light itself into cookies.": "Converts homosexuality itself into shugats.",
 	"[Prism business name]Corporate country": "Corporate country",
 	"[Prism business quote]You've made it to the top, and you can now buy entire nations to further your corporate greed. Godspeed.": "You've made it to the top, and you can now buy entire nations to further your corporate greed. Godspeed.",
-	"Cheerleader bobo": "/",
-	"cheerleader bobo": "/",
+	"Chancemaker": "Cheerleader bobo",
+	"chancemaker": "cheerleader bobo",
 	"cheerleader bobos": "/",
-	"%1 chancemaker": [
+	"%1 cheerleader bobo": [
 		"%1 cheerleader bobo",
 		"%1 cheerleader bobos"
 	],
 	"[Chancemaker quote]Generates cookies out of thin air through sheer luck.": "Cheering on Shugat so they draw more silly little guys.",
 	"[Chancemaker business name]Privatized planet": "Privatized planet",
 	"[Chancemaker business quote]Actually, you know what's cool? A whole planet dedicated to producing, advertising, selling, and consuming your cookies.": "Actually, you know what's cool? A whole planet dedicated to producing, advertising, selling, and consuming your shugats.",
-	"Indigo engine": "/",
-	"indigo engine": "/",
+	"Fractal engine": "Indigo engine",
+	"fractal engine": "indigo engine",
 	"indigo engines": "/",
-	"%1 fractal engine": [
+	"%1 indigo engine": [
 		"%1 indigo engine",
 		"%1 indigo engines"
 	],
 	"[Fractal engine quote]Turns cookies into even more cookies.": "Turns shugats into even more shugats.",
 	"[Fractal engine business name]Senate seat": "Senate seat",
 	"[Fractal engine business quote]Only through political dominion can you truly alter this world to create a brighter, more cookie-friendly future.": "Only through political dominion can you truly alter this world to create a brighter, more shugat-friendly future.",
-	"Rackodo's macbook": "/",
-	"rackodo's macbook": "/",
+	"Javascript console": "Rackodo's macbook",
+	"javascript console": "rackodo's macbook",
 	"rackodo's macbooks": "/",
-	"%1 javascript console": [
+	"%1 rackodo's macbook": [
 		"%1 rackodo's macbook",
 		"%1 rackodo's macbooks"
 	],
