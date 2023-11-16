@@ -994,7 +994,7 @@ AddLanguage('USF','US Furries',{
 	"Grandma": "Zeke",
 	"grandma": "zeke",
 	"grandmas": "zekes",
-	"%1 grandma": [
+	"%1 zeke": [
 		"%1 zeke",
 		"%1 zekes"
 	],
