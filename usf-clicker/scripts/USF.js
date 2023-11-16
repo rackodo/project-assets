@@ -993,8 +993,8 @@ AddLanguage('USF','US Furries',{
 	"[Cursor business quote]Essential in flattening dough. The first step in cookie-making.": "Essential in flattening dough. The first step in cookie-making.",
 	"Grandma": "Zeke",
 	"grandma": "zeke",
-	"grandmas": "zekes",
-	"%1 zeke": [
+	"zekes": "/",
+	"%1 grandma": [
 		"%1 zeke",
 		"%1 zekes"
 	],
