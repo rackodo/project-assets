@@ -1112,11 +1112,11 @@ AddLanguage('USF','US Furries',{
 	"[Antimatter condenser business name]Cookiecoin": "Dexiums",
 	"[Antimatter condenser business quote]A virtual currency, already replacing regular money in some small countries.": "A virtual currency, already replacing regular money in some small countries.",
 	"Prism": "Gay people",
-	"prism": "gay person",
+	"prism": "gay people",
 	"prisms": "gay people",
 	"%1 gay people": [
-		"%1 gay",
-		"%1 gays"
+		"%1 gay person",
+		"%1 gay people"
 	],
 	"[Prism quote]Converts light itself into cookies.": "Converts homosexuality itself into shugats.",
 	"[Prism business name]Corporate country": "Corporate country",
