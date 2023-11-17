@@ -1114,7 +1114,7 @@ AddLanguage('USF','US Furries',{
 	"Prism": "Gay people",
 	"prism": "gay person",
 	"prisms": "gay people",
-	"%1 gay person]": [
+	"%1 gay people]": [
 		"%1 gay person",
 		"%1 gay people"
 	],
