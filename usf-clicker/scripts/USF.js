@@ -992,11 +992,11 @@ AddLanguage('USF','US Furries',{
 	"[Cursor business name]Rolling pin": "Rolling pin",
 	"[Cursor business quote]Essential in flattening dough. The first step in cookie-making.": "Essential in flattening dough. The first step in cookie-making.",
 	"Grandma": "Zeke",
-	"grandma": "zeke",
-	"grandmas": "zekes",
-	"%1 zeke": [
-		"%1 zeke",
-		"%1 zekes"
+	"grandma": "Zeke",
+	"grandmas": "Zekes",
+	"%1 Zeke": [
+		"%1 Zeke",
+		"%1 Zekes"
 	],
 	"[Grandma quote]A nice grandma to bake more cookies.": "A nice zeke to bake more shugats.",
 	"[Grandma business name]Oven": "Oven",
@@ -1082,7 +1082,7 @@ AddLanguage('USF','US Furries',{
 	"[Alchemy lab business name]Stock share": "Stock share",
 	"[Alchemy lab business quote]You're officially on the stock market, and everyone wants a piece!": "You're officially on the stock market, and everyone wants a piece!",
 	"Portal": "Serious chat portal",
-	"portal": "Serious chat portal",
+	"portal": "serious chat portal",
 	"portals": "serious chat portals",
 	"%1 serious chat portal": [
 		"%1 serious chat portal",
@@ -1112,7 +1112,7 @@ AddLanguage('USF','US Furries',{
 	"[Antimatter condenser business name]Cookiecoin": "Dexiums",
 	"[Antimatter condenser business quote]A virtual currency, already replacing regular money in some small countries.": "A virtual currency, already replacing regular money in some small countries.",
 	"Prism": "Gay people",
-	"prism": "gay people",
+	"prism": "gay person",
 	"prisms": "gay people",
 	"%1 gay people": [
 		"%1 gay",
@@ -1123,7 +1123,7 @@ AddLanguage('USF','US Furries',{
 	"[Prism business quote]You've made it to the top, and you can now buy entire nations to further your corporate greed. Godspeed.": "You've made it to the top, and you can now buy entire nations to further your corporate greed. Godspeed.",
 	"Chancemaker": "Cheerleader bobo",
 	"chancemaker": "cheerleader bobo",
-	"chancemakers": "cheerleader bobo",
+	"chancemakers": "cheerleader bobos",
 	"%1 cheerleader bobo": [
 		"%1 cheerleader bobo",
 		"%1 cheerleader bobos"
