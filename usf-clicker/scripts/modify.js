@@ -59,6 +59,8 @@ export function Modify(Game) {
 	LoadLang('https://assets.rackodo.dev/usf-clicker/scripts/USF.js', function() {
 		console.log("Changing building data...")
 		for (let i = 0; i < Game.ObjectsById.length; i++) {
+			Game.ObjectsById[i].osingle = Game.ObjectsById[i].single
+			Game.ObjectsById[i].oplural = Game.ObjectsById[i].plural
 			Game.ObjectsById[i].dname = loc(Game.ObjectsById[i].dname, 'USF')
 			Game.ObjectsById[i].desc = loc(FindLocStringByPart(Game.ObjectsById[i].name +' quote'), 'USF')
 			Game.ObjectsById[i].single = loc(Game.ObjectsById[i].single, 'USF')
