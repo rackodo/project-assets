@@ -1991,7 +1991,7 @@ AddLanguage('USF','US Furries',{
 	"[Upgrade name 9]Lubricated dentures": "Lubricated dentures",
 	"[Upgrade name 10]Cheap hoes": "Cheap hoes",
 	"[Upgrade name 11]Fertilizer": "Fertilizer",
-	"[Upgrade name 12]Cookie trees": "cookie trees",
+	"[Upgrade name 12]Cookie trees": "Shugat trees",
 	"[Upgrade name 13]Sturdier conveyor belts": "Sturdier conveyor belts",
 	"[Upgrade name 14]Child labor": "Child labor",
 	"[Upgrade name 15]Sweatshop": "Sweatshop",
