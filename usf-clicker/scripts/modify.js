@@ -73,7 +73,7 @@ export function Modify(Game) {
 		}
 		console.log("Building data updated!")
 
-		for (let i = 0; i < Game.UpgradesById.length; i++) {
+		for (let i = 0; i < Game.UpgradesN; i++) {
 			console.log(Game.UpgradesById[i].buildingTie)
 		}
 	},"what the fuck")
