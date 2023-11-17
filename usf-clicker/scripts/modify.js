@@ -74,7 +74,7 @@ export function Modify(Game) {
 		console.log("Building data updated!")
 
 		for (let i = 0; i < Game.UpgradesById.length; i++) {
-			console.log(Game.UpgradesById[i].desc)
+			console.log(Game.UpgradesById[i].buildingTie)
 		}
 	},"what the fuck")
 	console.log("Custom text loaded!")

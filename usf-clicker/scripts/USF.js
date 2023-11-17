@@ -899,7 +899,7 @@ AddLanguage('USF','US Furries',{
 	"It's <b>Easter season</b>!<br>Keep an eye out and you just might click a rabbit or two!": "It's <b>Easter season</b>!<br>Keep an eye out and you just might click a ender or two!",
 	"[Tag]Heavenly": "Heavenly",
 	"[Tag]Tech": "Tech",
-	"[Tag]Cookie": "cookie",
+	"[Tag]Cookie": "Shugat",
 	"[Tag]Debug": "Debug",
 	"[Tag]Switch": "Switch",
 	"[Tag]Upgrade": "Upgrade",
