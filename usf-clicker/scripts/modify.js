@@ -79,7 +79,8 @@ export function Modify(Game) {
 			if(Game.UpgradesById[i].buildingTie != 0) {
 				let test = "cookie clicker"
 				// Game.UpgradesById[i]
-				Game.UpgradesById[i].ddesc = Game.UpgradesById[i].ddesc.replace(cap(Game.UpgradesById[i].buildingTie.osingle) = cap(Game.UpgradesById[i].buildingTie.single))
+				// Game.UpgradesById[i].ddesc = Game.UpgradesById[i].ddesc.replace(cap(Game.UpgradesById[i].buildingTie.osingle) = cap(Game.UpgradesById[i].buildingTie.single))
+				Game.UpgradesById[i].ddesc = Game.UpgradesById[i].buildingTie.single
 				// console.log(test)
 			}
 		}
