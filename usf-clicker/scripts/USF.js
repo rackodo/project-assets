@@ -1114,9 +1114,9 @@ AddLanguage('USF','US Furries',{
 	"Prism": "Gay people",
 	"prism": "gay person",
 	"prisms": "gay people",
-	"%1 gay people": [
-		"%1 gay",
-		"%1 gays"
+	"%1 gay person]": [
+		"%1 gay person",
+		"%1 gay people"
 	],
 	"[Prism quote]Converts light itself into cookies.": "Converts homosexuality itself into shugats.",
 	"[Prism business name]Corporate country": "Corporate country",
