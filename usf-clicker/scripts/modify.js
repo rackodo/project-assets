@@ -62,9 +62,9 @@ export function Modify(Game) {
 			Game.ObjectsById[i].dname = loc(Game.ObjectsById[i].dname, 'USF')
 			Game.ObjectsById[i].desc = loc(FindLocStringByPart(Game.ObjectsById[i].name +' quote'), 'USF')
 			Game.ObjectsById[i].single = loc(Game.ObjectsById[i].single, 'USF')
-			Game.ObjectsById[i].plural = loc(Game.ObjectsById[i].plural, 'USF')
+			// Game.ObjectsById[i].plural = loc(Game.ObjectsById[i].plural, 'USF')
 			// Game.ObjectsById[i].bsingle = loc(Game.ObjectsById[i].bsingle, 'USF')
-			// Game.ObjectsById[i].bplural = loc(Game.ObjectsById[i].bplural, 'USF')
+			Game.ObjectsById[i].bplural = loc(Game.ObjectsById[i].bplural, 'USF')
 			Game.ObjectsById[i].refresh()
 
 			LocalizeUpgradesAndAchievs()
