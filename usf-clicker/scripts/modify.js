@@ -74,7 +74,12 @@ export function Modify(Game) {
 		console.log("Building data updated!")
 
 		for (let i = 0; i < Game.UpgradesN; i++) {
-			console.log(Game.UpgradesById[i].buildingTie == 0)
+			if(Game.UpgradesById[i].buildingTie != 0) {
+				let test = "cookie clicker"
+				Game.UpgradesById[i]
+				test.replace("cookie", Game.UpgradesById[i].buildingTie.dname)
+				console.log(test)
+			}
 		}
 	},"what the fuck")
 	console.log("Custom text loaded!")
