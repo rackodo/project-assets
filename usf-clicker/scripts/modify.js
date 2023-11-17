@@ -1,3 +1,5 @@
+const cap = (str) => {return(str.charAt(0).toUpperCase() + str.slice(1))};
+
 export function Modify(Game) {
 	// Update Info Page
 	console.log("Adding custom Info...")
@@ -76,8 +78,8 @@ export function Modify(Game) {
 		for (let i = 0; i < Game.UpgradesN; i++) {
 			if(Game.UpgradesById[i].buildingTie != 0) {
 				let test = "cookie clicker"
-				Game.UpgradesById[i]
-				console.log(test.replace("cookie", Game.UpgradesById[i].buildingTie.dname))
+				// Game.UpgradesById[i]
+				Game.UpgradesById[i].ddesc.replace(cap(Game.UpgradesById[i].buildingTie.osingle) = cap(Game.UpgradesById[i].buildingTie.single))
 				// console.log(test)
 			}
 		}
