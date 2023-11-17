@@ -76,6 +76,12 @@ export function Modify(Game) {
 		console.log("Building data updated!")
 
 		for (let i = 0; i < Game.UpgradesN; i++) {
+			Game.UpgradesById[i].ddesc = Game.UpgradesById[i].ddesc.replace("Grandmas","Zekes")
+			Game.UpgradesById[i].ddesc = Game.UpgradesById[i].ddesc.replace("grandmas","zekes")
+			Game.UpgradesById[i].ddesc = Game.UpgradesById[i].ddesc.replace("grandma","zeke")
+			Game.UpgradesById[i].ddesc = Game.UpgradesById[i].ddesc.replace("Cookie","Shugat")
+			Game.UpgradesById[i].ddesc = Game.UpgradesById[i].ddesc.replace("Grandmas","Zekes")
+			Game.UpgradesById[i].ddesc = Game.UpgradesById[i].ddesc.replace("CpS","SpS")
 			if(Game.UpgradesById[i].buildingTie != 0) {
 				// Game.UpgradesById[i].ddesc = "a"
 				// Game.UpgradesById[i].ddesc = Game.UpgradesById[i].ddesc.replace(cap(Game.UpgradesById[i].buildingTie.oplural)),cap(Game.UpgradesById[i].buildingTie.plural)

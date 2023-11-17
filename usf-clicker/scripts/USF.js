@@ -2013,7 +2013,7 @@ AddLanguage('USF','US Furries',{
 	"[Upgrade name 31]Kitten helpers": "Kitten helpers",
 	"[Upgrade name 32]Kitten workers": "Kitten workers",
 	"[Upgrade name 33]Plain cookies": "Plain shugats",
-	"[Upgrade name 34]cookie cookies": "cookie shugats",
+	"[Upgrade name 34]Sugar cookies": "Sugar shugats",
 	"[Upgrade name 35]Oatmeal raisin cookies": "Oatmeal raisin shugats",
 	"[Upgrade name 36]Peanut butter cookies": "Peanut butter shugats",
 	"[Upgrade name 37]Coconut cookies": "Coconut shugats",
