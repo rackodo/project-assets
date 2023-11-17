@@ -1988,7 +1988,7 @@ AddLanguage('USF','US Furries',{
 	"[Upgrade name 6]Trillion fingers": "Trillion fingers",
 	"[Upgrade name 7]Forwards from grandma": "Forwards from zeke",
 	"[Upgrade name 8]Steel-plated rolling pins": "Steel-plated rolling pins",
-	"[Upgrade desc 8]": "testing testing",
+	"[Upgrade desc 8]Grandmas are <b>twice</b> as efficient.": "testing testing",
 	"[Upgrade name 9]Lubricated dentures": "Lubricated dentures",
 	"[Upgrade name 10]Cheap hoes": "Cheap hoes",
 	"[Upgrade name 11]Fertilizer": "Fertilizer",
