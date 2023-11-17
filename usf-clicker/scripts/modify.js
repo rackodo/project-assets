@@ -80,7 +80,7 @@ export function Modify(Game) {
 				let test = "cookie clicker"
 				// Game.UpgradesById[i]
 				// Game.UpgradesById[i].ddesc = Game.UpgradesById[i].ddesc.replace(cap(Game.UpgradesById[i].buildingTie.osingle) = cap(Game.UpgradesById[i].buildingTie.single))
-				Game.UpgradesById[i].ddesc = cap(Game.UpgradesById[i].buildingTie.single)
+				Game.UpgradesById[i].ddesc = Game.UpgradesById[i].ddesc.replace(cap(Game.UpgradesById[i].buildingTie.oplural)),cap(Game.UpgradesById[i].buildingTie.plural)
 				// console.log(test)
 			}
 		}
