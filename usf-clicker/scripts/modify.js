@@ -77,8 +77,8 @@ export function Modify(Game) {
 			if(Game.UpgradesById[i].buildingTie != 0) {
 				let test = "cookie clicker"
 				Game.UpgradesById[i]
-				test.replace("cookie", Game.UpgradesById[i].buildingTie.dname)
-				console.log(test)
+				console.log(test.replace("cookie", Game.UpgradesById[i].buildingTie.dname))
+				// console.log(test)
 			}
 		}
 	},"what the fuck")
