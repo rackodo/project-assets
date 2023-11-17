@@ -79,7 +79,9 @@ export function Modify(Game) {
 			if(Game.UpgradesById[i].buildingTie != 0) {
 				// Game.UpgradesById[i]
 				// Game.UpgradesById[i].ddesc = Game.UpgradesById[i].ddesc.replace(cap(Game.UpgradesById[i].buildingTie.oplural)),cap(Game.UpgradesById[i].buildingTie.plural)
-				Game.UpgradesById[i].ddesc = Game.UpgradesById[i].ddesc.replace(cap(Game.UpgradesById[i].buildingTie.oplural),cap(Game.UpgradesById[i].buildingTie.plural))
+				Game.UpgradesById[i].ddesc = Game.UpgradesById[i].ddesc.replace(
+					cap(Game.UpgradesById[i].buildingTie.oplural),
+					"a")
 				// console.log(test)
 			}
 		}
