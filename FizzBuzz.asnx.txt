@@ -1,0 +1,20 @@
+[Name] FizzBuzz.asnx
+[AuthUser] rkdo
+[AuthHost] rackodo.dev
+[TargUser] silvr
+[TargHost] atlasfx8604-4296
+
+--BEGIN FILE--
+int i = 0
+int cap = 50
+
+while (i < cap) {
+	string = "";
+	if (i % 3 == 0) { string += "Fizz" };
+	if (i % 5 == 0) { string += "Buzz" };
+	if (string == "") { string = toString(i) }
+
+	Discord.Message(string)
+	i += 1
+}
+--END FILE--

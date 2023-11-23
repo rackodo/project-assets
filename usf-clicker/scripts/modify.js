@@ -143,4 +143,49 @@ export function Modify(Game) {
 		"Reo",
 		"Milo"
 	]
+
+	PlaySound = function(url,vol,pitchVar)
+	{
+		//url : the url of the sound to play (will be cached so it only loads once)
+		//vol : volume between 0 and 1 (multiplied by game volume setting); defaults to 1 (full volume)
+		//(DISABLED) pitchVar : pitch variance in browsers that support it (Firefox only at the moment); defaults to 0.05 (which means pitch can be up to -5% or +5% anytime the sound plays)
+		var volume=1;
+		var volumeSetting=Game.volume;
+		if (typeof vol!=='undefined') volume=vol;
+		if (volume<-5) {volume+=10;volumeSetting=Game.volumeMusic;}
+		if (!volumeSetting || volume==0) return 0;
+		if (typeof Sounds[url]==='undefined')
+		{
+			//sound isn't loaded, cache it
+			Sounds[url]=new Audio("https://assets.rackodo.dev/usf-clicker/snd/guh.mp3");
+			Sounds[url].onloadeddata=function(e){PlaySound("https://assets.rackodo.dev/usf-clicker/snd/guh.mp3",vol,pitchVar);}
+			//Sounds[url].load();
+		}
+		else if (Sounds[url].readyState>=2 && SoundInsts[SoundI].paused)
+		{
+			var sound=SoundInsts[SoundI];
+			SoundI++;
+			if (SoundI>=12) SoundI=0;
+			sound.src="https://assets.rackodo.dev/usf-clicker/snd/guh.mp3"
+			//sound.currentTime=0;
+			sound.volume=Math.pow(volume*volumeSetting/100,2);
+			if (pitchSupport)
+			{
+				var pitchVar=(typeof pitchVar==='undefined')?0.05:pitchVar;
+				var rate=1+(Math.random()*2-1)*pitchVar;
+				sound.preservesPitch=false;
+				sound.mozPreservesPitch=false;
+				sound.webkitPreservesPitch=false;
+				sound.playbackRate=rate;
+			}
+			try{sound.play();}catch(e){}
+			/*
+			var sound=Sounds[url].cloneNode();
+			sound.volume=Math.pow(volume*volumeSetting/100,2);
+			sound.onended=function(e){if (e.target){delete e.target;}};
+			sound.play();*/
+		}
+	}
+
+	SoundInsts.forEach((sound) => {sound.src="https://assets.rackodo.dev/usf-clicker/snd/guh.mp3"})
 }
