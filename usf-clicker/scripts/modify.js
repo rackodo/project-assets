@@ -144,7 +144,7 @@ export function Modify(Game) {
 		"Milo"
 	]
 
-	var PlaySound = function(url,vol,pitchVar)
+	PlaySound = function(url,vol,pitchVar)
 	{
 		//url : the url of the sound to play (will be cached so it only loads once)
 		//vol : volume between 0 and 1 (multiplied by game volume setting); defaults to 1 (full volume)
