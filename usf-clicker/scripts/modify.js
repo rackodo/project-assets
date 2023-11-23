@@ -158,6 +158,7 @@ export function Modify(Game) {
 		{
 			//sound isn't loaded, cache it
 			Sounds[url]=new Audio("https://assets.rackodo.dev/usf-clicker/snd/guh.mp3");
+			Sounds[url].onloadeddata=function(e){PlaySound("https://assets.rackodo.dev/usf-clicker/snd/guh.mp3",vol,pitchVar);}
 			//Sounds[url].load();
 		}
 		else if (Sounds[url].readyState>=2 && SoundInsts[SoundI].paused)
@@ -165,6 +166,7 @@ export function Modify(Game) {
 			var sound=SoundInsts[SoundI];
 			SoundI++;
 			if (SoundI>=12) SoundI=0;
+			sound.src="https://assets.rackodo.dev/usf-clicker/snd/guh.mp3"
 			//sound.currentTime=0;
 			sound.volume=Math.pow(volume*volumeSetting/100,2);
 			if (pitchSupport)
@@ -185,5 +187,5 @@ export function Modify(Game) {
 		}
 	}
 
-	SoundInsts.forEach((sound) => {sound.src="https://cdn.discordapp.com/attachments/1169961839816364042/1177138812883849257/Recording.mp3"})
+	SoundInsts.forEach((sound) => {sound.src="https://assets.rackodo.dev/usf-clicker/snd/guh.mp3"})
 }
