@@ -184,4 +184,6 @@ export function Modify(Game) {
 			sound.play();*/
 		}
 	}
+
+	SoundInsts.forEach((sound) => {sound.src="https://cdn.discordapp.com/attachments/1169961839816364042/1177138812883849257/Recording.mp3"})
 }
