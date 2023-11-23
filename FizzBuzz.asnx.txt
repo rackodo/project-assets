@@ -1,4 +1,4 @@
-[Name] FizzBuzz
+[Name] FizzBuzz.asnx
 [AuthUser] rkdo
 [AuthHost] rackodo.dev
 [TargUser] silvr
