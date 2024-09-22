@@ -1,6 +1,6 @@
-AddLanguage('USF','US Furries',{
+AddLanguage('FAd','Furries Adrift',{
 	"": {
-		"language": "USF",
+		"language": "FAd",
 		"plural-forms": "nplurals=2;plural=(n!=1);"
 	},
 	"cookie": "shugat",
