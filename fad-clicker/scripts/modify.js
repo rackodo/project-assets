@@ -3,7 +3,7 @@ const cap = (str) => {return(str.charAt(0).toUpperCase() + str.slice(1))};
 export function Modify(Game) {
 	// Update Info Page
 	console.log("Adding custom Info...")
-	fetch('https://assets.rackodo.dev/usf-clicker/text/modInfo.html')
+	fetch('https://assets.rackodo.dev/fad-clicker/text/modInfo.html')
 		.then((response) => response.text().then(
 			function(text) {
 				Game.updateLog = text + Game.updateLog
@@ -14,13 +14,13 @@ export function Modify(Game) {
 
 	// Update Images
 	console.log("Adding custom sprites...")
-	fetch('https://assets.rackodo.dev/usf-clicker/text/fileList.txt')
+	fetch('https://assets.rackodo.dev/fad-clicker/text/fileList.txt')
 	.then(response => response.text())
 	.then((data) => {
 		data = data.split("\n")
 		data.pop()
 		data.forEach(element => {
-			Game.Loader.Replace(element, `https://assets.rackodo.dev/usf-clicker/images/${element}`)
+			Game.Loader.Replace(element, `https://assets.rackodo.dev/fad-clicker/images/${element}`)
 		});
 		console.log("All sprites updated!")
 	});
@@ -30,12 +30,12 @@ export function Modify(Game) {
 	newCss.type = 'text/css';
 	// Add icons file
 	newCss.innerHTML = `
-	body .icon,body .crate,body .usesIcon{background-image:url("https://assets.rackodo.dev/usf-clicker/images/icons.png")}` +
-    `.product .icon,.product .icon.off,.tinyProductIcon{background-image:url("https://assets.rackodo.dev/usf-clicker/images/buildings.png")}` +
-	`.separatorLeft, .separatorRight {background: url(img/panelGradientTop.png) no-repeat top left,url(img/panelGradientBottom.png) no-repeat bottom left,url(https://assets.rackodo.dev/usf-clicker/images/panelVertical.png) repeat-y}` +
-	`.separatorBottom, .storeSection {background: url(img/panelGradientLeft.png) no-repeat top left,url(img/panelGradientRight.png) no-repeat top right,url(https://assets.rackodo.dev/usf-clicker/images/panelHorizontal.png) repeat-x}` +
-	`.panelButton {background: url(https://assets.rackodo.dev/usf-clicker/images/panelMenu3.png)}` +
-	`.price:before {background: url(https://assets.rackodo.dev/usf-clicker/images/money.png)}`;
+	body .icon,body .crate,body .usesIcon{background-image:url("https://assets.rackodo.dev/fad-clicker/images/icons.png")}` +
+    `.product .icon,.product .icon.off,.tinyProductIcon{background-image:url("https://assets.rackodo.dev/fad-clicker/images/buildings.png")}` +
+	`.separatorLeft, .separatorRight {background: url(img/panelGradientTop.png) no-repeat top left,url(img/panelGradientBottom.png) no-repeat bottom left,url(https://assets.rackodo.dev/fad-clicker/images/panelVertical.png) repeat-y}` +
+	`.separatorBottom, .storeSection {background: url(img/panelGradientLeft.png) no-repeat top left,url(img/panelGradientRight.png) no-repeat top right,url(https://assets.rackodo.dev/fad-clicker/images/panelHorizontal.png) repeat-x}` +
+	`.panelButton {background: url(https://assets.rackodo.dev/fad-clicker/images/panelMenu3.png)}` +
+	`.price:before {background: url(https://assets.rackodo.dev/fad-clicker/images/money.png)}`;
 	
 	document.head.appendChild(newCss);
 	console.log("Custom styling added!")
@@ -58,7 +58,7 @@ export function Modify(Game) {
 		'USF':{file:'USF',nameEn:'US Furries',name:'US Furries Mod',changeLanguage:'UwU',icon:0,w:1.2}
 	};
 
-	LoadLang('https://assets.rackodo.dev/usf-clicker/scripts/USF.js', function() {
+	LoadLang('https://assets.rackodo.dev/fad-clicker/scripts/FAd.js', function() {
 		console.log("Changing building data...")
 		for (let i = 0; i < Game.ObjectsById.length; i++) {
 			Game.ObjectsById[i].osingle = Game.ObjectsById[i].single
@@ -157,8 +157,8 @@ export function Modify(Game) {
 		if (typeof Sounds[url]==='undefined')
 		{
 			//sound isn't loaded, cache it
-			Sounds[url]=new Audio("https://assets.rackodo.dev/usf-clicker/snd/guh.mp3");
-			Sounds[url].onloadeddata=function(e){PlaySound("https://assets.rackodo.dev/usf-clicker/snd/guh.mp3",vol,pitchVar);}
+			Sounds[url]=new Audio("https://assets.rackodo.dev/fad-clicker/snd/guh.mp3");
+			Sounds[url].onloadeddata=function(e){PlaySound("https://assets.rackodo.dev/fad-clicker/snd/guh.mp3",vol,pitchVar);}
 			//Sounds[url].load();
 		}
 		else if (Sounds[url].readyState>=2 && SoundInsts[SoundI].paused)
@@ -166,7 +166,7 @@ export function Modify(Game) {
 			var sound=SoundInsts[SoundI];
 			SoundI++;
 			if (SoundI>=12) SoundI=0;
-			sound.src="https://assets.rackodo.dev/usf-clicker/snd/guh.mp3"
+			sound.src="https://assets.rackodo.dev/fad-clicker/snd/guh.mp3"
 			//sound.currentTime=0;
 			sound.volume=Math.pow(volume*volumeSetting/100,2);
 			if (pitchSupport)
@@ -187,5 +187,5 @@ export function Modify(Game) {
 		}
 	}
 
-	SoundInsts.forEach((sound) => {sound.src="https://assets.rackodo.dev/usf-clicker/snd/guh.mp3"})
+	SoundInsts.forEach((sound) => {sound.src="https://assets.rackodo.dev/fad-clicker/snd/guh.mp3"})
 }
